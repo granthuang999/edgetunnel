@@ -1161,7 +1161,7 @@ function 配置信息(UUID, 域名地址) {
 	
 	const 传输层协议 = 'ws';
 	const 伪装域名 = 域名地址;
-	const 路径 = '/?ed=2560&proxyip=ts.hpc.tw';
+	const 路径 = '/?ed=2560';
 	
 	let 传输层安全 = ['tls',true];
 	const SNI = 域名地址;
